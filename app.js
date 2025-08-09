@@ -15,7 +15,7 @@ const todoText= todoInput.value.trim()
 if(todoText.length>0){
 allTodos.push(todoText);
 updateTodoList();
-todoInput.value=0
+todoInput.value=""
 }
 
 }
